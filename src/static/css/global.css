@@ -1,0 +1,33 @@
+.App_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #727272;
+    height: 100vh;
+    margin-inline: auto;
+}
+
+.date_container {
+    background-color: var(--background-color-calendar);
+    font-size: 15px;
+    color: var(--color-text);
+    border-radius: 15px;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+}
+
+:root {
+    /* colors */
+    --color-text: #ffffff;
+    --color-placeholder: rgba(255, 255, 255, 0.5);
+    --color-additional: #93b1ff;
+    --color-additional7: rgba(147, 177, 225, 0.7);
+    --background-color-calendar: #3a3e42;
+    --bacground-color-calendar-header: #575c63;
+
+    /* images */
+    --images-arrow: url('../images/arrow.svg')
+    /* spacing */
+    /* text */
+}
